@@ -12,7 +12,8 @@ A homelab fun project I'm working on: learning electronics on a Raspberry Pi 5, 
 | 4 | [Breathing LED](projects/04-breathing-led/breathing.py) | PWM and duty cycle | Done |
 | 5 | [Room thermometer](projects/05-room-thermometer/thermometer.py) | DHT22 through the kernel driver and sysfs | Done |
 | 6 | [Distance meter](projects/06-distance-meter/distance.py) | HC-SR04 echo timing, noisy readings | Done |
-| 7 | [Two-player reaction game](projects/07-two-player-reaction-game/game.py) | Timing, polling vs events, game state | In progress |
+| 7 | [Two-player reaction game](projects/07-two-player-reaction-game/game.py) | Timing, polling vs events, game state | Done |
+| 8 | [Parking sensor](projects/08-parking-sensor/parking.py) | Thresholds, mapping sensor data to LEDs | In progress |
 
 ## Hardware
 
