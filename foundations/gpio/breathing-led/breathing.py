@@ -1,6 +1,6 @@
-"""Project 4: breathing LED with PWM.
+"""Breathing LED with PWM.
 
-Wiring: same as project 1 (GPIO17 -> resistor -> LED -> GND).
+Wiring: same as blink (GPIO17 -> resistor -> LED -> GND).
 """
 
 from gpiozero import PWMLED

@@ -5,4 +5,6 @@ description = "A homelab fun project: learning electronics on a Raspberry Pi 5"
 readme = "README.md"
 requires-python = ">=3.11"
 # gpiozero and lgpio come from Raspberry Pi OS; create the venv with --system-site-packages
-dependencies = []
+dependencies = [
+    "piicodev>=1.11.0",
+]

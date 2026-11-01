@@ -1,4 +1,4 @@
-"""Project 3: pedestrian crossing.
+"""Pedestrian crossing.
 
 Wiring: red LED -> GPIO17, yellow -> GPIO22, green -> GPIO23 (each through a
 resistor), button -> GPIO27. The lights sit on green until someone presses

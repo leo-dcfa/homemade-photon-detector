@@ -1,4 +1,4 @@
-"""Project 1: blink an LED.
+"""Blink an LED.
 
 Wiring: GPIO17 -> 330 Ω resistor -> LED long leg; LED short leg -> GND.
 """

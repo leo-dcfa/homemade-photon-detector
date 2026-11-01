@@ -1,6 +1,6 @@
-"""Project 7: two-player reaction game.
+"""Two-player reaction game.
 
-Wiring: LED on GPIO17 through a resistor (as in project 1). Button modules:
+Wiring: LED on GPIO17 through a resistor (as in blink). Button modules:
 player 1 signal -> GPIO5, player 2 signal -> GPIO6, both VCC -> 3.3V and
 GND -> GND. The LED lights after a random delay; the first press wins.
 """

@@ -1,7 +1,7 @@
-"""Project 8: parking sensor.
+"""Parking sensor.
 
-Wiring: the project 3 LEDs (red -> GPIO17, yellow -> GPIO22, green -> GPIO23,
-each through a resistor) and the project 6 HC-SR04 (VCC -> 3.3V,
+Wiring: the pedestrian-crossing LEDs (red -> GPIO17, yellow -> GPIO22, green -> GPIO23,
+each through a resistor) and the distance-meter HC-SR04 (VCC -> 3.3V,
 Trig -> GPIO25, Echo -> GPIO24, GND -> GND).
 Green means clear (over 50 cm), yellow means slow, red means stop (20 cm or less).
 """

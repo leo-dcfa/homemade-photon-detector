@@ -1,4 +1,4 @@
-"""Project 5: room thermometer (DHT22).
+"""Room thermometer (DHT22).
 
 Wiring: DHT22 + -> 3.3V, out -> GPIO4, - -> GND.
 Needs `dtoverlay=dht11,gpiopin=4` in /boot/firmware/config.txt and a reboot;

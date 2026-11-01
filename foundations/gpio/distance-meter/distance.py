@@ -1,4 +1,4 @@
-"""Project 6: distance meter (HC-SR04).
+"""Distance meter (HC-SR04).
 
 Wiring: VCC -> 3.3V, Trig -> GPIO25, Echo -> GPIO24, GND -> GND.
 This is the 3.3V version of the sensor, so no voltage divider is needed.

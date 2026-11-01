@@ -6,3 +6,30 @@ requires-python = ">=3.11"
 name = "homemade-photon-detector"
 version = "0.1.0"
 source = { virtual = "." }
+dependencies = [
+    { name = "piicodev" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "piicodev", specifier = ">=1.11.0" }]
+
+[[package]]
+name = "piicodev"
+version = "1.11.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "smbus2" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a2/45/122fbc4e3031d20711c918c8f5f9872e550f1c199771da6a0f92cca0947c/piicodev-1.11.0.tar.gz", hash = "sha256:04bd4cd6997a6859d61e7a2eb41cb050fd4b8cc02cb2333d685dd330855a2075", size = 48488, upload-time = "2025-11-27T22:16:10.029Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a3/fe/d39747e66b68947e2038cb075c5fd18cdd8a4359a573ff49890d9279a19c/piicodev-1.11.0-py3-none-any.whl", hash = "sha256:42fb8162bdcf4c6c2ddecef4814ed6e08c9bc2dcff3e415181f443f4ef4dae0d", size = 110903, upload-time = "2025-11-27T22:16:08.886Z" },
+]
+
+[[package]]
+name = "smbus2"
+version = "0.6.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/87/37/b3f7b501502c4915ba3819d1dc277bf3f5fae4a9d067caa4f502aaddd889/smbus2-0.6.1.tar.gz", hash = "sha256:2b043372abf8f6029a632c3aab36b641c5d5872b1cbad599fc68e17ac4fd90a5", size = 17274, upload-time = "2026-04-09T20:37:54.821Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/96/f2/c78a68bd739ac8fc608747cff73a4db3b19f3135658ed4e64374f6425cbf/smbus2-0.6.1-py2.py3-none-any.whl", hash = "sha256:650feeb27ca0ed58b07db4c10201c2a662c41305b7bf6e5fab9d888056f48180", size = 11767, upload-time = "2026-04-09T20:37:53.728Z" },
+]

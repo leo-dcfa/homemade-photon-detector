@@ -1,6 +1,6 @@
-"""Project 2: toggle the LED with a button.
+"""Toggle an LED with a button.
 
-Wiring: the project 1 LED on GPIO17, plus a button module with
+Wiring: the blink LED on GPIO17, plus a button module with
 signal -> GPIO27, VCC -> 3.3V, GND -> GND. The module outputs HIGH when
 pressed; if presses feel reversed, set active_state=False.
 """
